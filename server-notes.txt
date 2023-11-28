@@ -1,0 +1,22 @@
+Restaurant Backend
+
+1. create a new folder for Backend -resturant-server
+2. create a package.json file - npm init -y
+3. install json server - npm i json-server
+4. create .gitignore file - node_modules 
+5. create a  db.json file for storing data
+6. Create index.js file
+     ->import json.server
+     ->Create a server
+     ->set up path for db.json file
+     ->return Middleware used by json server
+     ->setup port for server
+     ->Use Middleware and Router
+     ->To run the server
+
+7. change in package.json file
+        "scripts": {
+    "start": "node index.js"
+  }
+
+8. run the server - nodemon index.js
